@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+    font-family: 'Barlow Condensed' ;
+}
+
+h2, h3{
+    text-align: center;
+    font-family: 'Barlow';
+    margin-bottom: 50px;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #C4EDF0;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: #F6FFFF;
+}
+
+form {
+    text-align: center;
+    font-family: 'Barlow';
+    background-color: #C4EDF0;
+    width: 100%;
+    max-width: 700px;
+    padding: 70px;
+    margin: 70px auto;
+    border: 1px solid #43A9B1;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 122px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    max-width: 200px;
+    margin: 1px auto;
+}
+
+button {
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    max-width: 100%;
+    max-width: 100px;
+    margin: 1px auto;
+}
+
+footer {
+    background-color: #C4EDF0;
+    padding: 20px;
+    text-align: center;
+}

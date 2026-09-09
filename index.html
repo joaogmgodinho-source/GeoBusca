@@ -10,17 +10,27 @@
 
 <body>
 
-    <h1>GeoBusca</h1>
+    <header>
+        <h1>GeoBusca</h1>
+    </header>
+
+    <h2>Localizador de indereços brasileiros via CEP</h2>
 
     <form id="formConsulta">
 
+        <h3>Para localizar, digite o CEP e Cidade:</h3>
+
         <label for="cep">CEP</label>
-        <input id="cep" type="text" inputmode="numeric" maxlength="9" placeholder="01001-000" required>
+        <input id="cep" type="text" inputmode="numeric" maxlength="9" placeholder="Ex: 12345-678" required>
         <label for="cidade">Cidade</label>
-        <input id="cidade" type="text" placeholder="São Paulo" required>
-        <button type="submit">Consultar Endereço</button>
+        <input id="cidade" type="text" placeholder="Ex: Lages" required>
+        <button type="submit">Buscar</button>
 
     </form>
+
+    <footer>
+        <p>&copy; 2026 GeoBusca. João M. G. Godinho</p>
+    </footer>
 
     <p id="mensagem" role="status" aria-live="polite"></p>
     <script src="index.js"></script>

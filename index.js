@@ -17,5 +17,5 @@ form.addEventListener("submit", (event) => {
     }
     const cep = entrada.replace("-", "");
     const parametros = new URLSearchParams({ cep, cidade });
-    window.location.href = `resultado.html?${parametros}`;s
+    window.location.href = `resultado.html?${parametros}`;
 });
