@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GeoBusca</title>
     <link rel="icon" type="image/png" href="icons/icon_512x512.png">
     <link rel="stylesheet" href="style.css">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="GeoBusca">
-    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon_192x192.png">
     <link rel="manifest" href="manifest.json">
 </head>
 
@@ -24,7 +24,7 @@
     <h2>Localizador de indereços brasileiros via CEP</h2>
 
     <!-- Formulário de consulta -->
-    <form id="formConsulta">s
+    <form id="formConsulta">
 
         <h3>Para localizar, digite o CEP e Cidade:</h3>
 
@@ -43,19 +43,8 @@
 
     <p id="mensagem" role="status" aria-live="polite"></p>
     <script src="index.js"></script>
-    <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
-          .then((registration) => {
-            console.log('Service Worker registrado com sucesso:', registration.scope);
-          })
-          .catch((error) => {
-            console.error('Falha ao registrar o Service Worker:', error);
-          });
-      });
-    }
-  </script> 
+    <script src="script.js"></script>
+
 
     <!-- 88512-210 Cep teste -->
 
